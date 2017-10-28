@@ -1,0 +1,67 @@
+/***************BORDER CSS******************/
+
+p.normal {
+    border: 2px solid black;
+}
+
+p.round1 {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+p.round2 {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+p.round3 {
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+/***************BORDER CSS*****************/
+
+/***************DIV CSS********************/
+
+#div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+
+/***************DIV CSS********************/
+
+/**********NAVIGATION BAR CSS**************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/********NAVIGATION BAR CSS*************/
