@@ -1,0 +1,151 @@
+body {
+    background-color: #FFF3FA;
+    margin: 0px;
+    padding: 0;
+    height: 950px;
+    font-family: inherit;
+
+}
+
+
+nav {
+    width: 100%;
+    height: 112px;
+    background-image: url(Afbeeldingen/aardbei.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 1px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 5%;
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    float: left;
+    margin-right: 35px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    color: white;
+    border-bottom: none;
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+    display: block;
+    background-color: #FFB6C1;
+}
+
+ul li a:hover {
+    text-shadow: 1px 1px 1px #FF5CCD;
+}
+
+
+#ideeen {
+    display: block;
+    width: 20%;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin: auto;
+    float: right;
+}
+
+.menu {
+    padding-top: 5%;
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.drinks {
+    padding-top: 5%;
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.desserts {
+    padding-top: 5%;
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+table {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+table td {
+    width: 30%;
+    text-align: left;
+    border: 1px solid #FFB6C1;
+    padding: 4px 8px;
+    background-color: white;
+}
+
+.google {
+    padding-top: 2%;
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+
+.index {
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.begintekst {
+    margin-top: 5%;
+}
+
+.tekst {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 50%;
+    height: 20%;
+}
+
+input {
+    font-family: sans-serif;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #FB607F;
+    display: block;
+    box-shadow: 1px 1px 1px 1px;
+}
